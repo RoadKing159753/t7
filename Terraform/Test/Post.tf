@@ -1,5 +1,4 @@
 resource "azurerm_postgresql_server" "example" {
-#zpc-skip-policy:ZS-AZURE-00010,ZS-AZURE-00005
   name                = "postgresql-server-1"
   location            = azurerm_resource_group.example.location
   resource_group_name = "api-rg-pro"
