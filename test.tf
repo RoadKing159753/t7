@@ -12,7 +12,6 @@ provider "aws" {
   profile = "default"
   region  = "us-west-2"
 }
-}
 
 resource "aws_s3_bucket" "unrestricted12" {
   bucket = "examplebuckettftest"
@@ -24,4 +23,5 @@ resource "aws_s3_bucket" "unrestricted12" {
     target_bucket = "pavantestbucket"
     target_prefix = "log/"
     }
+}
 }
