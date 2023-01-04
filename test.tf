@@ -14,7 +14,7 @@ provider "aws" {
 }
 }
 
-resource "aws_s3_bucket" "unrestricted1" {
+resource "aws_s3_bucket" "unrestricted" {
   bucket = "examplebuckettftest"
   acl    = "private"
   versioning {
