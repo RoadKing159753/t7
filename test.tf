@@ -13,6 +13,7 @@ provider "aws" {
   region  = "us-west-2"
 }
 }
+}
 
 resource "aws_s3_bucket" "unrestricted" {
   #zpc-skip-policy: ZS-AWS-00034:testing
