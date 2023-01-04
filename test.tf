@@ -15,7 +15,6 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "unrestricted" {
-  #zpc-skip-policy: ZS-AWS-00034:testing
   bucket = "examplebuckettftest"
   acl    = "private"
   versioning {
