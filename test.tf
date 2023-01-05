@@ -24,3 +24,4 @@ resource "aws_s3_bucket" "unrestricted12" {
     target_prefix = "log/"
     }
 }
+}
